@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+   		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="description" content="access eats">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Filter - accses eats</title>
+	</head>
+
+	<body>
+
+		<header>
+			<a href="index.html"><img src="images/logo.png" alt="access eats logo"></a>
+			<nav>
+				<ul>
+					<li><a href="landingpage.html">search</a></li>
+					<li><a href="#">top rated</a></li>
+					<li><a href="addreview.html">add review</a></li>
+					<li><a href="profile.html">profile</a></li>
+					<li><a href="faq.html">FAQ</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<div>
+			<p><a href="results.html">back</a></p>
+		</div>
+
+		<form action="results.html">
+
+			<div>
+				<p>filter options</p>
+			</div>
+				
+			<div>
+				<fieldset>
+					<legend>accomodations</legend>
+					<label>
+						<input type="checkbox" name="accommodations" value="wheelchair"> wheelchair access
+					</label>
+					<label>
+						<input type="checkbox" name="accommodations" value="hard of hearing deaf"> hard of hearing/deaf
+					</label>
+					<label>
+						<input type="checkbox" name="accommodations" value="low vision blind"> low vision/blind
+					</label>
+				</fieldset>
+			</div>
+
+			<div>
+				<fieldset>
+					<legend>hospitality</legend>
+					<label>
+						<input type="checkbox" name="hospitality" value="5 stars"> 5 stars
+					</label>
+					<label>
+						<input type="checkbox" name="hospitality" value="4 stars"> 4 stars
+					</label>
+					<label>
+						<input type="checkbox" name="hospitality" value="3 stars"> 3 stars
+					</label>
+					<label>
+						<input type="checkbox" name="hospitality" value="2 stars"> 2 stars
+					</label>
+					<label>
+						<input type="checkbox" name="hospitality" value="1 star"> 1 star
+					</label>
+				</fieldset>
+			</div>
+
+			<div>
+				<fieldset>
+					<legend>yelp stars</legend>
+					<label>
+						<input type="checkbox" name="yelp stars" value="5 stars"> 5 stars
+					</label>
+					<label>
+						<input type="checkbox" name="yelp stars" value="4 stars"> 4 stars
+					</label>
+					<label>
+						<input type="checkbox" name="yelp stars" value="3 stars"> 3 stars
+					</label>
+					<label>
+						<input type="checkbox" name="yelp stars" value="2 stars"> 2 stars
+					</label>
+					<label>
+						<input type="checkbox" name="yelp stars" value="1 star"> 1 star
+					</label>
+				</fieldset>
+			</div>
+
+		
+			<button type="submit">Done</button>
+		</form>
+
+	</body>
+</html>
